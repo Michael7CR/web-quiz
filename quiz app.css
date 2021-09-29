@@ -1,0 +1,143 @@
+.choice_container{
+display: flex;
+
+margin-bottom: 0.5rem;
+border-style: solid;
+border-width:thin ;
+
+font-size: 1.rem;
+border: 0.1 rem solid rgb(90, 86, 70);
+background-color: white;
+
+border-color: black;
+padding-left: 15px;
+border-radius: 50px;
+overflow: auto;
+
+max-width: 500px;
+}
+.choice-prefix{
+	
+	color: red;
+
+
+}
+.choices_Text{
+	padding-left: 15px;
+	width: 100%;
+
+}
+.choice_container:hover{
+	cursor: pointer;
+	
+	box-shadow: 0 0.4rem 1.4rem rgba(0, 0, 0, 2.5);
+	border-color: black;
+	border-width: thin medium thin;
+}
+
+.container{
+	margin: 110px 500px;
+
+}
+#question{
+  border-style: dotted dashed solid double;
+	background-color: white;
+	border-radius: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	align-items: center;
+	padding-left: 40px;
+	margin-bottom: 40px;
+	overflow: auto;
+	max-width: 500px;
+	margin-top: 30px;
+
+}
+
+#question:hover{
+	cursor: crosshair;
+
+
+}
+
+
+#hud{
+	display: flex;
+	justify-content: space-around;
+
+
+}
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+.hud-prefix{
+	text-align: center;
+	font-size: 2rem;
+
+}
+
+.hud-main-text{
+	text-align: center;
+}
+
+
+
+.end-container{
+	display: flex;
+	justify-content:  center;
+	align-content: center;
+	margin-top: 100px;
+	background-color: yellow;
+	width: 50vw;
+	height: 50vh;
+	border-radius: 10px;
+	margin-right: 50px;
+	margin-left: 400px;
+	
+}
+.btn{
+	color: white;
+	background-color: coral;
+	display: flex;
+	padding: 10px;
+	font-size: 20px;
+	width: 180px;
+	margin-bottom: 30px;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	position: relative;
+	text-decoration: none;
+
+}
+input{
+	margin-bottom: 30px;
+
+	width: 180px;
+	height: 20px;
+}
+
+.flex-enter{
+	padding-left: 50px;
+}
+#finalScore{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.btn[disabled]:hover{
+	cursor: not-allowed;
+	box-shadow: none;
+	transform: none;
+}
+.btn:hover{
+	cursor: pointer;
+	transform: translateY(-10px);
+	transition: transform 200ms;
+	box-shadow: 0 0.4rem 1.4rem rgba(67.98,84.71,90.2, 7);;
+}

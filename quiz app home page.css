@@ -1,0 +1,75 @@
+:root{
+	
+	
+	overflow: scroll;
+
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+h1{
+font-family: comic sans ms;
+margin-bottom: 5rem;
+margin-left: 50px;
+font-size: 50px;
+}
+
+
+.container_homepage{
+
+	display: flex;
+	
+	margin: 100px auto;
+	border-radius: 30px;
+	background-color: #fff44f;
+	justify-content: center;
+	align-content: center;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+	width: 1000px;
+	height: 500px;
+
+
+}
+h1{
+	font-family: comic sans ms;
+	
+	color: blue;
+	text-align: justify-all;
+	padding: 50px;
+	position: relative;
+}
+
+
+.btn{
+	border-radius: 20px;
+	color: white;
+	background-color: coral;
+	display: flex;
+	padding: 5px;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	justify-content: center;
+	
+	font-family: sans-serif;
+	position: relative;
+	text-decoration: none;
+
+}
+.btn:hover{
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem rgba(67.98,84.71,90.2, 7);
+	transform: translateY(-10px);
+	transition: transform 60ms;
+}
+.btn[disabled]:hover{
+	cursor: not-allowed;
+	box-shadow: none;
+	transform: none;
+}

@@ -1,0 +1,12 @@
+.choice-container{
+display: flex;
+margin: 0.5rem;
+width: 100%;
+font-size: 1.8rem;
+border: 0.1 rem solid rgb(90, 86, 70);
+background-color: red;
+border: 1px;
+}
+div{
+	background-color:pink;
+}
